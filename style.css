@@ -1,0 +1,64 @@
+bod{
+    margin:0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+.form-page{
+    background-color: aquamarine;
+    padding: 70px 0;
+}
+.form-page h1{
+text-align: center;
+text-decoration: underline;
+font-size: 60px;
+padding-bottom: 30px;
+color: brown;
+}
+.form-page form{
+    background-color: #fff;
+    margin:30px auto;
+    width: 60%;
+    padding: 10px 5px;
+    box-shadow:5px 10px 20px 2px #0006;
+}
+.form-page label{
+    width: 25%;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+}
+.form-group input,
+.form-group select{
+    width: 60%;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+
+}
+.form-group input[type="radio"],
+.form-group input[type="checkbox"]{
+    width: 30px;
+}
+.form-group textarea{
+    width: 59%;
+}
+.form-group input[type="Submit"]{
+    width: 20%;
+    display: block;
+    background-color: blue;
+    border: 2px solid #000;
+    margin: 15px auto;
+    padding: 15px 0;
+
+}
